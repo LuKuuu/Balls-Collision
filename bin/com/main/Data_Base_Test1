@@ -1,0 +1,41 @@
+use Ball_Collision
+
+create table Interface 
+(
+Interface_number int primary key,
+
+Created_Time datetime,
+
+Total_Ball_Number int,
+
+
+)
+
+--drop table Balls
+
+create table Balls
+(
+
+Number int primary key,
+
+Interface_No int foreign key references Interface(Interface_number),
+
+Ball_name int,
+mass int,
+r int,
+
+x int,
+y int,
+
+vx int,
+vy int,
+
+Color_R int,
+Color_G int,
+Color_B int
+
+
+
+)
+
+select * from Balls

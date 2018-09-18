@@ -134,6 +134,24 @@ public class Manager extends JFrame implements ActionListener{
 			Ball b3=new Ball(3, 10, 100, 500, 870, 20, 40);
 			
 			i.bm.addBall(b3);
+			
+			Ball b4=new Ball(4, 10, 10, 150, 87, 20, 40);			
+			i.bm.addBall(b4);
+			
+			Ball b5=new Ball(5, 10, 180, 500, 70, 20, 90);			
+			i.bm.addBall(b5);
+			
+			Ball b6=new Ball(6, 10, 30, 90, 870, 20, 49);			
+			i.bm.addBall(b6);
+			
+			Ball b7=new Ball(7, 40, 36, 50, 870, 70, 40);			
+			i.bm.addBall(b7);
+			
+			Ball b8=new Ball(8, 10, 100, 0, 830, 20, 50);			
+			i.bm.addBall(b8);
+			
+			
+			
 			c.setI(this);
 		}
 		

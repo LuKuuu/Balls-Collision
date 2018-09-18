@@ -61,7 +61,7 @@ public class MyPanel extends JPanel implements Runnable{
 		{
 			this.repaint();
 			try {
-				Thread.sleep(10);
+				Thread.sleep(1);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
